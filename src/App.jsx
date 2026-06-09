@@ -155,10 +155,7 @@ function App() {
         {showResult && userChoice && (
           <div className="mt-4 p-4 bg-white bg-opacity-20 rounded-lg border-2 border-white animate-fadeIn">
             <p className="text-white text-center font-bold text-lg">
-              ✨ Отлично! ✨
-            </p>
-            <p className="text-white text-center mt-2">
-              {userChoice === 1 ? "Она выбрала ПЕРВЫЙ вариант! 💝" : "Она выбрала ВТОРОЙ вариант! 💝"}
+              Будет сделано Жаным🤍
             </p>
           </div>
         )}
